@@ -12,10 +12,12 @@ def abfrage
   eingabe.upcase!
 
   if eingabe == "N"
-  exit
-  else zufall_buchstabe
+    exit
+  else 
+    zufall_buchstabe
   end
 end
+
 
 zufall_buchstabe
 abfrage 
